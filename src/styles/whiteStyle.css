@@ -1,0 +1,66 @@
+
+* {
+    background: #f7f5f5;
+}
+
+.out {
+    color: #0300b0;
+}
+
+.line {
+    background: linear-gradient(#f7f5f5, #f7f5f5) padding-box,
+    linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+    color: #000000;
+}
+
+.line #del {
+    color: #ffffff;
+    background: #ff0000;
+    border: 2px solid #414141;
+}
+
+.line #del:hover {
+    background-color: red;
+    border-color: white;
+    color: #000000;
+}
+
+.feed-form {
+    background: #f7f5f5;
+}
+
+.feed-form input {
+    border: 1px solid #0300b0;
+    box-shadow: 0 0 5px #0300b0;
+    background: #f7f5f5;
+    color: #E0E0E0;
+}
+
+.btn {
+    color: #f7f5f5;
+    background: #000000;
+}
+
+h1 {
+    color: #000000;
+}
+
+h1 span {
+    color: #FFD700;
+    text-shadow: 0 0 5px #FFD700;
+}
+
+.navbar {
+    background: #f7f5f5;
+}
+
+.navbar a {
+    background: #f7f5f5;
+    border: 1px solid #0300b0;
+    box-shadow: 0 0 5px #0300b0;
+}
+
+.navbar a span {
+    color: #0300b0;
+    text-shadow: 0 0 5px #0300b0;
+}

@@ -1,0 +1,65 @@
+* {
+    background: #212121;
+}
+
+.out {
+    color: #FFE4C4;
+}
+
+.line {
+    background: linear-gradient(#212121, #212121) padding-box,
+    linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+    color: #ffffff;
+}
+
+.line #del {
+    color: #ffffff;
+    background: #313131;
+    border: 2px solid #414141;
+}
+
+.line #del:hover {
+    background-color: red;
+    border-color: white;
+    color: #000000;
+}
+
+.feed-form {
+    background: #212121;
+}
+
+.feed-form input {
+    border: 1px solid #FFD700;
+    box-shadow: 0 0 5px #FFD700;
+    background: #212121;
+    color: #4B4B4B;
+}
+
+.btn {
+    color: #212121;
+    background: #FFE4C4;
+}
+
+h1 {
+    color: #FFE4C4;
+}
+
+h1 span {
+    color: #FFD700;
+    text-shadow: 0 0 5px #FFD700;
+}
+
+.navbar {
+    background: #212121;
+}
+
+.navbar a {
+    background: #212121;
+    border: 1px solid #FFD700;
+    box-shadow: 0 0 5px #FFD700;
+}
+
+.navbar a span {
+    color: #FFD700;
+    text-shadow: 0 0 5px #FFD700;
+}

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+    <link rel="stylesheet" title="theme" href="src/styles/main.css">
+    <link rel="stylesheet" title="theme" href="src/styles/whiteStyle.css">
+    <link rel="stylesheet" title="theme" href="src/styles/darkStyle.css">
+    <script type="module" src="src/main.js" defer></script>
+</head>
+<body>
+
+<header>
+    <div class="logo" id="home">
+        <h1>CONTACT
+            <span>BOOK</span>
+        </h1>
+    </div>
+    <div class="navbar">
+
+        <a href="#getAll" id="all__contact">
+            <span>ALL CONTACTS</span>
+        </a>
+        <a href="#searchForm" id="search__contact">
+            <span>SEARCH</span>
+        </a>
+        <a href="#add" id="add__contact">
+            <span>ADD CONTACT</span>
+        </a>
+    </div>
+    <label class="switch">
+        <input class="checkbox" type="checkbox">
+        <span class="slider" id="colorSlider"></span>
+    </label>
+</header>
+
+<section>
+
+    <div class="pre_navbar">
+        <div class="nav__all__contact">
+            <form role="form" method="GET" id="getAll" style="display: none">
+                <div class="out" id="output"></div>
+            </form>
+        </div>
+
+        <div class="nav__search__contact">
+            <form id="searchForm" method="POST" class="feed-form" style="display: none">
+                <input type="text" name="search" id="searchText" placeholder="ENTER TEXT">
+                <button type="submit" class="btn btn-success">SEARCH</button>
+                <div class="outData" id="searchResults"></div>
+            </form>
+        </div>
+
+        <div class="nav__add__contact">
+            <form role="form" method="POST" id="add" class="feed-form" style="display: none">
+                <input type="text" name="name" placeholder="NAME">
+                <input type="text" name="phone" placeholder="PHONE">
+                <input type="text" name="gmail" placeholder="MAIL">
+                <button type="submit" id="btn" class="btn btn-success">ADD</button>
+                <div class="out" id="out"></div>
+            </form>
+        </div>
+    </div>
+</section>
+</body>
+</html>

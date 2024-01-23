@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+}
+
+h1 span {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.logo h1 {
+    cursor: pointer;
+    position: fixed;
+}
+
+.navbar {
+    width: 25%;
+    height: 200px;
+    border-radius: 4px;
+    background: #212121;
+    display: flex;
+    gap: 5px;
+    padding: .4em;
+}
+
+.navbar a {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar a:hover {
+    flex: 4;
+}
+
+.navbar a span {
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+
+.navbar a:hover span {
+    transform: rotate(0);
+}
+
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    --background: #28096b;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background);
+    transition: .5s;
+    border-radius: 30px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 50%;
+    left: 10%;
+    bottom: 15%;
+    box-shadow: inset 15px -4px 0 15px #fff000;
+    background: var(--background);
+    transition: .5s;
+}
+
+input:checked + .slider {
+    background-color: #522ba7;
+}
+
+input:checked + .slider:before {
+    transform: translateX(100%);
+    box-shadow: inset 8px -4px 0 0 #fff000;
+}

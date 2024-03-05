@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php": "^8.1",
+        "ext-pdo": "*",
+        "symfony/dotenv": "^6.4",
+        "symfony/var-dumper": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Route\\": "Router.php"
+        }
+    }
+}
